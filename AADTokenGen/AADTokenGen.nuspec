@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>AADTokenGen</id>
+    <version>1.0.0.0</version>
+    <title>AADTokenGen</title>
+    <authors>Richard Hallgren</authors>
+    <projectUrl>https://github.com/riha/AADTokenGen</projectUrl>
+    <description>AADTokenGen</description>
+  </metadata>
+</package>
