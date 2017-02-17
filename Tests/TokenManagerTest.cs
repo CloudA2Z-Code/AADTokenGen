@@ -12,6 +12,8 @@ namespace Tests
         {
             TokenManager manager = new TokenManager();
             var header = manager.HttpAutenticationHeader();
+
+            Assert.IsNotNull(header);
         }
     }
 }

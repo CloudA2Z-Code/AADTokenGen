@@ -19,15 +19,15 @@ namespace AADTokenGen
             if (string.IsNullOrEmpty(ODataEndpointUri))
                 throw new ConfigurationErrorsException("ODataEndpointUri needs to be configured in config file");
 
-            UserName = ConfigurationManager.AppSettings.Get("UserName");
+            UserName = ConfigurationManager.AppSettings.Get("ODataUserName");
 
             if (string.IsNullOrEmpty(UserName))
-                throw new ConfigurationErrorsException("UserName needs to be configured in config file");
+                throw new ConfigurationErrorsException("ODataUserName needs to be configured in config file");
 
-            Password = ConfigurationManager.AppSettings.Get("Password");
+            Password = ConfigurationManager.AppSettings.Get("ODataPassword");
 
             if (string.IsNullOrEmpty(Password))
-                throw new ConfigurationErrorsException("Password needs to be configured in config file");
+                throw new ConfigurationErrorsException("ODataPassword needs to be configured in config file");
 
             ActiveDirectoryResource = ConfigurationManager.AppSettings.Get("ActiveDirectoryResource");
 
